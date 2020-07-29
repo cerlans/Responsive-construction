@@ -184,9 +184,18 @@ h2 {
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
   width:100%;
-  background-color:	#483C32; 
+  background-color:	black; 
   height:auto;
+  text-align: center;
+}
+
+.footer .fab {
+  font-size: 3rem;
+  margin: 1rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width:768px) {
