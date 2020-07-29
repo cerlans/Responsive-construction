@@ -224,11 +224,7 @@ h2 {
         height: 500px;
         position: relative;
     }
-    .backgroundfoot h1 {
-        left: 0px;
-        width: 40px;
-        color: red;
-    }
+    
     .firstheader h2 {
         font-size: 40px;
     }
@@ -238,7 +234,8 @@ h2 {
         /* Not sure if i want to keep this styling in the future*/
     }
     .wrapper p {
-        margin: initial;
+         margin-left: 1rem;
+         margin-right: 1rem;
     }
     .header {
         top: 0px;
@@ -313,7 +310,7 @@ h2 {
     .flex img {
         max-width: 400px;
         width: initial;
-        margin-left: 0.8rem;
+        margin:initial;
         border: solid gainsboro;
     }
 
@@ -325,7 +322,7 @@ h2 {
     .flexsecond img {
         max-width: 400px;
         width: initial;
-        margin-right: 0.8rem;
+        margin:initial;
         border: solid gainsboro;
 
     }
