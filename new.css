@@ -170,165 +170,163 @@ h2 {
     margin-right: 1rem;
 }
 @media screen and (min-width:768px) {
-   #navbar {
-     display: flex;
-     justify-content: space-between;
-     padding-bottom: 0px;
-     height: 70px;
-     align-items: center;
-   }
- 
-   .main-nav {
-     display: flex;
-     margin-right: 30px;
-     flex-direction: row;
-     justify-content: flex-end;
-   }
- 
-   .main-nav li {
-     margin: 0;
-   }
- 
-   .nav-links {
-     margin-left: 40px;
-   }
- 
-   .logo {
-     margin-top: 0;
-   }
- 
-   .navbar-toggle {
-     display: none;
-   }
- 
-   
-   .nav-links:hover {
-     background-color: white;
-         color: black;
-   }
- 
-   .background {
-   background-image: url("https://zululandobserver.co.za/wp-content/uploads/sites/56/2013/11/Construction.jpg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width:100%;
-   height:500px;
- }
- .backgroundfoot{
-   background-image: url("https://images.squarespace-cdn.com/content/5755a35501dbae3c6d1ba03e/1466431188847-3AV4M2XMF3RADSVDN4O3/black-and-white-restaurant-eating-sitting.jpg?content-type=image%2Fjpeg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: 100%;
-   width:100%;
-   height:500px;
-   position:relative;
- }
- .backgroundfoot h1{
-   left: 0px;
-   width:40px;
-   color:red;
- }
- .firstheader h2{
-  font-size:40px;
- }
- .wrapper {
-  margin: 0 auto;
-  max-width: 1200px;
-  /* Not sure if i want to keep this styling in the future*/
-  }
-  .wrapper p {
-    margin: initial;
-  }
- .header
-         {
-   top: 0px;
-   position:absolute; 
-   color:blue;
- }
- .backgroundfoot .flexcontainer {
- display:flex;
- justify-content: center;
- }
- h1 {
-   color:black;
- }
- #mingallery {
-    display:flex;
-    justify-content: center;
- }
- .item {
-   border:none;
-   margin:20px;
- }
- h2 {
-   font-size: 18px;
-   font-weight: 200;
-   text-align: center;
- }
- 
- .cardcontainer {
-  display: flex;
-  flex-wrap: wrap;
-  /* 
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0px;
+        height: 70px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+
+    .nav-links:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .background {
+        background-image: url("https://zululandobserver.co.za/wp-content/uploads/sites/56/2013/11/Construction.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 500px;
+    }
+    .backgroundfoot {
+        background-image: url("https://images.squarespace-cdn.com/content/5755a35501dbae3c6d1ba03e/1466431188847-3AV4M2XMF3RADSVDN4O3/black-and-white-restaurant-eating-sitting.jpg?content-type=image%2Fjpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .backgroundfoot h1 {
+        left: 0px;
+        width: 40px;
+        color: red;
+    }
+    .firstheader h2 {
+        font-size: 40px;
+    }
+    .wrapper {
+        margin: 0 auto;
+        max-width: 1200px;
+        /* Not sure if i want to keep this styling in the future*/
+    }
+    .wrapper p {
+        margin: initial;
+    }
+    .header {
+        top: 0px;
+        position: absolute;
+        color: blue;
+    }
+    .backgroundfoot .flexcontainer {
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+        color: black;
+    }
+    #mingallery {
+        display: flex;
+        justify-content: center;
+    }
+    .item {
+        border: none;
+        margin: 20px;
+    }
+    h2 {
+        font-size: 18px;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    .cardcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        /* 
   flex wrap adds a degree of responsiveness to the images, if the images cannot fit on the entire width of the screen they will wrap and go toward the bottom as the screen expands. not 
   setting flex-wrap will make all the images stay on the same line and if the screen is too small it will create a horizontal scroll bar.
   */
-  justify-content: center;
-}
+        justify-content: center;
+    }
 
-.card {
-  border: 1px solid gray;
-  background-color: white;
-  max-width: 300px;
-   /* 
+    .card {
+        border: 1px solid gray;
+        background-color: white;
+        max-width: 300px;
+        /* 
   a minimum width to the sub container of each individual card is applied, it means that it will stretch the entire screen, bit cannot go smaller than 300px.
   also what doesnt make sense is that if it stretches the entire screen(block level element), why are the cards allowed to be next to each other?
   it is most likely display:flex giving that property to them, display flex allows them to be flex block level elements, while nto truly being true block level elements. 
   for some reason minimum width is very confusing for me to understand, despite its linear meaning
   */
-   flex: 1;
-  /* 
+        flex: 1;
+        /* 
   flex: 1 specifies that each individual flex item will have to be the same size regardless off content.
   why is card 3 so big?
   */
-  margin:15px;
-}
+        margin: 15px;
+    }
 
 
-.card-content {
-  padding: 16px;
-}
-.card-content p {
-  margin:initial;
-}
-.card-title {
-  margin: 0;
-}
+    .card-content {
+        padding: 16px;
+    }
+    .card-content p {
+        margin: initial;
+    }
+    .card-title {
+        margin: 0;
+    }
 
-.flex {
-  display:flex;
-  width:100%;
-  flex-direction: row;
-}
-.flex img {
-  max-width:400px;
-  width:initial;
-  margin-left: 0.8rem;
-  border: solid gainsboro;
-}
+    .flex {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+    .flex img {
+        max-width: 400px;
+        width: initial;
+        margin-left: 0.8rem;
+        border: solid gainsboro;
+    }
 
-.flexsecond{
-  display:flex;
-  flex-direction: row-reverse;
-  width:100%;
- }
-.flexsecond img {
-  max-width:400px;
-  width:initial;
-  margin-right: 0.8rem;
-  border: solid gainsboro;
+    .flexsecond {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    .flexsecond img {
+        max-width: 400px;
+        width: initial;
+        margin-right: 0.8rem;
+        border: solid gainsboro;
 
+    }
 }
- }
-
