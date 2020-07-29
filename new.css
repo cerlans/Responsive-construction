@@ -148,11 +148,7 @@ h2 {
     font-size: 20px;
 
 }
-.card-header img {
-    width: 100%;
-    max-width: 600px;
-    height: 300px;
-}
+
 
 .flex {
     display: flex;
@@ -172,10 +168,21 @@ h2 {
     width: 100%;
 }
 
+.cardcontainer{
+  text-align: center;
+  
+}
+.card-header img {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+}
+
 .card-content p {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
 @media screen and (min-width:768px) {
     #navbar {
         display: flex;
