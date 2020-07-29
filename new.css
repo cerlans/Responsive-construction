@@ -304,6 +304,8 @@ width: 100%;
 .flex img {
   max-width:400px;
   width:initial;
+  margin-left: 0.8rem;
+  border: solid gainsboro;
 }
 
 .flexsecond{
@@ -314,6 +316,9 @@ width: 100%;
 .flexsecond img {
   max-width:400px;
   width:initial;
+  margin-right: 0.8rem;
+  border: solid gainsboro;
+
 }
  }
   
