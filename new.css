@@ -1,83 +1,83 @@
 * {
     margin: 0;
-   padding: 0;
-   font-family: Montserrat, sans-serif;
-   font-weight:400;
-   letter-spacing:2px;
-   line-height: 1.6;
-   box-sizing: border-box;
- }
- 
- .background{
-  background-image: url("https://zululandobserver.co.za/wp-content/uploads/sites/56/2013/11/Construction.jpg");
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width:100%;
-  height:400px;
-
- }
- #navbar {
-   overflow:hidden;
-   font-size: 18px;
-   border: 1px solid rgba(0, 0, 0, 0.2);
-   padding-bottom: 10px;
-   background-color:black;
-   z-index:10;
- }
- 
- .main-nav {
-   list-style-type: none;
-   display: none;
- }
- 
- .main-nav li {
-  text-align: center;
-  margin: 15px auto;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    box-sizing: border-box;
 }
- .nav-links,
- .logo {
-   text-decoration: none;
-   color: rgba(255, 255, 255, 0.7);
-   text-decoration:none;
-   color:white;
-   text-decoration:none;
-   transition-duration: 0.4s;
-   padding:10px;
-  text-transform: uppercase;
- }
- 
- 
- .logo {
-   display: inline-block;
-   font-size: 22px;
-   margin-top: 10px;
-   margin-left: 20px;
- }
- 
- .navbar-toggle {
-   position: absolute;
-   top: 10px;
-   right: 20px;
-   cursor: pointer;
-   color: rgba(255, 255, 255, 0.8);
-   font-size: 26px;
- }
- .active {
-   display: block;
- }
- .sticky {
-   position: fixed;
-   top: 0;
-   width: 100%;
- }
- .container {
-   position:relative;
-   width:100%;
-   display:flex;
-   text-align: center;
- }
- /*
+
+.background {
+    background-image: url("https://zululandobserver.co.za/wp-content/uploads/sites/56/2013/11/Construction.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 400px;
+
+}
+#navbar {
+    overflow: hidden;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    background-color: black;
+    z-index: 10;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 26px;
+}
+.active {
+    display: block;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+/*
  h1 {
   Come check on this later
   need to start giving all my h1's and h2's seperate classes
@@ -89,86 +89,87 @@
    :-1;
  }
  */
- h1 {
-   text-align:center;
-   text-transform:uppercase;
+h1 {
+    text-align: center;
+    text-transform: uppercase;
 }
- h2{
-   text-align:center;
-   text-transform: uppercase;
- }
- 
- .wrapper {
-  text-align:center;
-  margin: 0 auto;
-  max-width: 1200px;
+h2 {
+    text-align: center;
+    text-transform: uppercase;
 
- }
- 
- .wrapper p {
-text-align: justify;
-margin-left: 1rem;
-margin-right:2rem;
+}
 
- }
+.wrapper {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
 
- .buttstyle {
-       padding: 10px;
-       background-color: white;
-       border:solid black;
-       width: 250px;
-       text-transform: uppercase;
-       font-size: 15px;
-       transition-duration: 0.4s;
-       letter-spacing:1px;
-       cursor: pointer;
- }
- .buttstyle:hover {
-   background-color: black;
-   color: white;
- }
- .item{
-   margin:20px;
-   border:solid black;
- }
- .mobilebutton {
-   display:inline-block;
-   background:none;
-   border:none;
- }
- .mobilebutton .fas {
-   font-size:20px;
- 
- }
- .card-header img {
-  width: 100%;
-  max-width:600px;
-  height:300px;
+}
+
+.wrapper p {
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 2rem;
+
+}
+
+.buttstyle {
+    padding: 10px;
+    background-color: white;
+    border: solid black;
+    width: 250px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.buttstyle:hover {
+    background-color: black;
+    color: white;
+}
+.item {
+    margin: 20px;
+    border: solid black;
+}
+.mobilebutton {
+    display: inline-block;
+    background: none;
+    border: none;
+}
+.mobilebutton .fas {
+    font-size: 20px;
+
+}
+.card-header img {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
 }
 
 .flex {
-  display:flex;
-  width:100%;
-  flex-direction: column;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 .flex img {
-  width:100%;
+    width: 100%;
 }
 
-.flexsecond{
-  display:flex;
-  flex-direction:column;
-  width:100%;
- }
+.flexsecond {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 .flexsecond img {
-width: 100%;
+    width: 100%;
 }
 
 .card-content p {
-  margin-left:1rem ;
-  margin-right:1rem
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
- @media screen and (min-width:768px) {
+@media screen and (min-width:768px) {
    #navbar {
      display: flex;
      justify-content: space-between;
@@ -298,10 +299,9 @@ width: 100%;
 .card-content {
   padding: 16px;
 }
-     .card-content p {
+.card-content p {
   margin:initial;
 }
-
 .card-title {
   margin: 0;
 }
@@ -331,4 +331,4 @@ width: 100%;
 
 }
  }
-  
+
