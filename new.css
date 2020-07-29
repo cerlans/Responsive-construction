@@ -89,13 +89,20 @@
    :-1;
  }
  */
+
 h1 {
-    text-align: center;
-    text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
+  color:	#483C32;
+  font-weight: 1000;
+
 }
+
 h2 {
-    text-align: center;
-    text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
+  color:	#483C32;
+  font-weight: 500;
 
 }
 
