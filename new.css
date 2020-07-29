@@ -89,7 +89,10 @@
    :-1;
  }
  */
- 
+ h1 {
+   text-align:center;
+   text-transform:uppercase;
+}
  h2{
    text-align:center;
    text-transform: uppercase;
@@ -161,6 +164,10 @@ margin-right:2rem;
 width: 100%;
 }
 
+.card-content p {
+  margin-left:1rem ;
+  margin-right:1rem
+}
  @media screen and (min-width:768px) {
    #navbar {
      display: flex;
@@ -290,6 +297,9 @@ width: 100%;
 
 .card-content {
   padding: 16px;
+}
+     .card-content p {
+  margin:initial;
 }
 
 .card-title {
