@@ -199,6 +199,43 @@ h2 {
   color:white;
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+ padding: 10px;
+background-color: white;
+border: solid black;
+width: 50%;
+text-transform: uppercase;
+font-size: 15px;
+transition-duration: 0.4s;
+letter-spacing: 1px;
+cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  color: white;  
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:100%;
+
+}
+
 @media screen and (min-width:768px) {
     #navbar {
         display: flex;
@@ -245,17 +282,6 @@ h2 {
         width: 100%;
         height: 500px;
     }
-    /*
-    .backgroundfoot {
-        background-image: url("https://images.squarespace-cdn.com/content/5755a35501dbae3c6d1ba03e/1466431188847-3AV4M2XMF3RADSVDN4O3/black-and-white-restaurant-eating-sitting.jpg?content-type=image%2Fjpeg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        width: 100%;
-        height: 500px;
-        position: relative;
-    }
-    */
     
     .firstheader h2 {
         font-size: 40px;
@@ -298,10 +324,6 @@ h2 {
     .cardcontainer {
         display: flex;
         flex-wrap: wrap;
-        /* 
-  flex wrap adds a degree of responsiveness to the images, if the images cannot fit on the entire width of the screen they will wrap and go toward the bottom as the screen expands. not 
-  setting flex-wrap will make all the images stay on the same line and if the screen is too small it will create a horizontal scroll bar.
-  */
         justify-content: center;
     }
 
@@ -309,17 +331,7 @@ h2 {
         border: 1px solid gray;
         background-color: white;
         max-width: 300px;
-        /* 
-  a minimum width to the sub container of each individual card is applied, it means that it will stretch the entire screen, bit cannot go smaller than 300px.
-  also what doesnt make sense is that if it stretches the entire screen(block level element), why are the cards allowed to be next to each other?
-  it is most likely display:flex giving that property to them, display flex allows them to be flex block level elements, while nto truly being true block level elements. 
-  for some reason minimum width is very confusing for me to understand, despite its linear meaning
-  */
         flex: 1;
-        /* 
-  flex: 1 specifies that each individual flex item will have to be the same size regardless off content.
-  why is card 3 so big?
-  */
         margin: 15px;
     }
 
@@ -357,38 +369,5 @@ h2 {
 
     }
     
-    input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-   input[type=submit] {
-   padding: 10px;
-   background-color: white;
-   border: solid black;
-   width: 250px;
-   text-transform: uppercase;
-   font-size: 15px;
-   transition-duration: 0.4s;
-   letter-spacing: 1px;
-   cursor: pointer;
-  }
-  
-   input[type=submit]:hover {
-    background-color: black;
-    color: white;  
-  }
-  
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
     
 }
