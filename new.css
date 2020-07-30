@@ -343,7 +343,6 @@ h2 {
         max-width: 400px;
         width: initial;
         margin:initial;
-        border: solid gainsboro;
     }
 
     .flexsecond {
@@ -355,7 +354,41 @@ h2 {
         max-width: 400px;
         width: initial;
         margin:initial;
-        border: solid gainsboro;
 
     }
+    
+    input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+   input[type=submit] {
+   padding: 10px;
+   background-color: white;
+   border: solid black;
+   width: 250px;
+   text-transform: uppercase;
+   font-size: 15px;
+   transition-duration: 0.4s;
+   letter-spacing: 1px;
+   cursor: pointer;
+  }
+  
+   input[type=submit]:hover {
+    background-color: black;
+    color: white;  
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+    
 }
